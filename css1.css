@@ -4,7 +4,9 @@ p{
     font-family:arial black;
     font-weight: normal;
 }
-
+h2{
+    letter-spacing: 2px;
+}
 
 
 b{
@@ -28,15 +30,21 @@ a{
     
     
 }
-.headingsparts{
+.headingspart{
+    font-size: 11px;
     text-align: center;
 }
 .headingspart:hover{
     color: #b92b27;
     background-color: whitesmoke;
 }
+.headingdivision{
+    
+    text-align: center;
+}
 /* rbutton is for all the buttons which have links... wont change the text style*/
 .rbutton{
+    font-size: 11px;
     background-color: #b92b27;
     color: whitesmoke;
 }
@@ -53,3 +61,13 @@ a:hover{
     color: #b92b27;
 }
 
+.imgdiv{
+    text-align: center;
+}
+.imgbutton{
+    background-color: #b92b27;
+}
+.imgbutton:hover{
+    background-color: rgb(116, 115, 115);
+
+}
