@@ -3,11 +3,17 @@ p{
     color: black;
     font-family:arial black;
     font-weight: normal;
+    height: 120px;
+    width: 650px;
+    margin: 15px 200px 2px 10px;
 }
-h2{
-    letter-spacing: 2px;
+h1,h2{
+    font-size: 21px;
 }
 
+nav{
+    height: 150px;
+}
 
 b{
     color:black;
@@ -19,55 +25,93 @@ a{
     text-decoration: none;
     color: white;
     font-weight: 900;
+    font-size: 15px;
    
 }
 /* headingspart is for headings only*/
 .headingspart{
-    background-color: #b92b27;
+    background-color: rgb(132, 24, 24);
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    transition: 0.7s;
+    border: 2px solid black;
+  
+    
+    
+}
+.onlyheading{
+    background-color: rgb(132, 24, 24);
     color: white;
     font-size: 13px;
     font-weight: normal;
-    
-    
+    transition: 0.7s;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+    transition: 0.7s;
+
 }
-.headingspart{
-    font-size: 11px;
-    text-align: center;
+.onlyheading:hover{
+    color: rgb(132, 24, 24);
+    background-color: white;
+    border-radius: 50%;
+    padding: 45px 21px 14px 21px;
+
 }
 .headingspart:hover{
-    color: #b92b27;
-    background-color: whitesmoke;
+    color: rgb(132, 24, 24);
+    background-color: white;
+    border-radius: 50%;
+    padding: 14px 14px 7px 14px;
+
+
 }
 .headingdivision{
-    
+   
     text-align: center;
+    
+    
 }
 /* rbutton is for all the buttons which have links... wont change the text style*/
 .rbutton{
+    transition: 0.7s;
+    margin: 0px 0px 7px 0px;
+    padding: 10px 10px 10px 10px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: rgb(224,187,32);
+   border-radius: 4px;
     font-size: 11px;
-    background-color: #b92b27;
-    color: whitesmoke;
+    background-color: rgb(132, 24, 24);
+    color: white;
 }
+
 .rbutton:hover {
-   
-    background-color: rgb(255, 183, 0);
+   border-radius: 50%;
+    background-color: rgb(224,187,32);
+    padding: 14px 10px 10px 10px;
 }
 .rbutton:active{
+    border-radius: 100%;
     background-color: white;
-    color: rgb(255, 183, 0);
+    color: rgb(224,187,32);
 }
 /* if a style changes the link name which appears will change*/
 a:hover{
-    color: #b92b27;
+    color: rgb(132, 24, 24);
 }
 
 .imgdiv{
     text-align: center;
 }
 .imgbutton{
-    background-color: #b92b27;
+    background-color: rgb(132, 24, 24);
 }
 .imgbutton:hover{
-    background-color: rgb(116, 115, 115);
+    background-color: rgb(224,187,32);
 
+}
+*::selection{
+    background-color:rgb(224,187,32) ;
+    color:rgb(132, 24, 24);
 }
