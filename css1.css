@@ -1,19 +1,9 @@
 
-p{
-    color: black;
-    font-family:arial black;
-    font-weight: normal;
-    height: 120px;
-    width: 650px;
-    /*margin: 15px 200px 2px 10px;*/
-}
-img{
-    height: 400px;
-    border: 2px solid black;
-    margin: 5px 10px 5px 300px;
-}
+
+
 h1,h2{
     font-size: 21px;
+    
 }
 
 nav{
@@ -24,8 +14,61 @@ b{
     color:black;
     
 }
-.babusection{
+img{
+    height: 100px;
+    width: 80px;
+    margin: 7px 7px 7px 300px;
     display: inline-block;
+    border: 2px solid black;
+    box-shadow: 4px 4px 12px black;
+transition: 0.7s;
+    
+}
+.img:hover{
+    height: 120px;
+    width: 90px;
+    margin: 7px 7px 7px 300px;
+    display: inline-block;
+    border: 2px solid black;
+    box-shadow: 4px 4px 24px pink;
+
+
+}
+.babusectionimage{
+   
+    background-color: black;
+   
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin: 3px 40px 20px 300px;
+background-image: url("babu1.jpeg");
+background-size: cover;
+box-shadow: 4px 4px 17px black;
+transition: 2s;
+}
+.babusectionimage:hover{
+    background-color: black;
+   
+    display: inline-block;
+    width: 400px;
+    height: 410px;
+    margin: 3px 40px 20px 300px;
+background-image: url("babu1.jpeg");
+background-size: cover;
+box-shadow: 4px 4px 24px black;
+
+}
+.babusectionpara{
+    color: black;
+    font-family:arial black;
+    font-weight: normal;
+    height: 100px;
+    width: 650px;
+    display: inline-block;
+    line-height: 40px;
+     
+    
 }
 a{
     text-align: left;
@@ -34,20 +77,11 @@ a{
     color: white;
     font-weight: 900;
     font-size: 15px;
+ 
    
 }
 /* headingspart is for headings only*/
-.headingspart{
-    background-color: rgb(132, 24, 24);
-    color: white;
-    font-size: 10px;
-    font-weight: normal;
-    transition: 0.7s;
-    border: 2px solid black;
-  
-    
-    
-}
+
 .onlyheading{
     background-color: rgb(132, 24, 24);
     color: white;
@@ -56,48 +90,72 @@ a{
     transition: 0.7s;
     padding: 20px 20px 20px 20px;
     border: 2px solid black;
-    transition: 0.7s;
+    transition: 1s;
+    box-shadow: 4px 4px 16px black;
+    
 
 }
 .onlyheading:hover{
+    box-shadow: 4px 4px 18px black;
     color: rgb(132, 24, 24);
     background-color: white;
-    border-radius: 50%;
-    padding: 45px 21px 14px 21px;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 28px 21px 10px 21px;
 
+}
+.headingspart{
+    background-color: rgb(132, 24, 24);
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    transition: 0.7s;
+    border: 2px solid black;
+    box-shadow: 4px 4px 8px black;
+    padding: 1px 21px 1px 21px;
+  
+    
+    
 }
 .headingspart:hover{
     color: rgb(132, 24, 24);
     background-color: white;
-    border-radius: 50%;
-    padding: 14px 14px 7px 14px;
+    box-shadow: 4px 4px 18px black;
+    padding: 7px 21px 1px 21px;
 
 
 }
 .headingdivision{
    
     text-align: center;
-    
-    
+    transition: 5s;
+   
 }
+
+
 /* rbutton is for all the buttons which have links... wont change the text style*/
 .rbutton{
-    transition: 0.7s;
+   
     margin: 0px 0px 7px 0px;
     padding: 10px 10px 10px 10px;
-   border-width: 2px;
+   border-width: 1px;
    border-style: solid;
    border-color: rgb(224,187,32);
    border-radius: 4px;
     font-size: 11px;
     background-color: rgb(132, 24, 24);
     color: white;
+    transition: 1.2s;
+    box-shadow: 4px 4px 10px black;
+    
 }
 
 .rbutton:hover {
+    margin: 0px 0px 14px 0px;
    border-radius: 50%;
     background-color: rgb(224,187,32);
     padding: 14px 10px 10px 10px;
+    box-shadow: 4px 4px 20px black;
 }
 .rbutton:active{
     border-radius: 100%;
@@ -109,17 +167,140 @@ a:hover{
     color: rgb(132, 24, 24);
 }
 
-.imgdiv{
+
+
+
+
+
+.headingspartbutton{
+    text-align: left;
+    background-color: rgb(132, 24, 24);
+    color: white;
+    display: block;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.7s;
+    ;
+}
+.headingspartbutton:hover{
+    background-color: white;
+    color: rgb(132, 24, 24);
+    box-shadow: 6px 6px 24px black;
+    font-size: 30px;padding: 7px 7px 4px 7px;
+
+
+}
+.imgbuttondiv{
+    
+    display: block;
     text-align: center;
 }
 .imgbutton{
     background-color: rgb(132, 24, 24);
 }
-.imgbutton:hover{
+#mbfoundation{
+    width: 300px;
+    margin: 2px 10px 2px 10px;
+}
+#mbfoundation:hover{
+    margin: 10px 20px 10px 20px;
     background-color: rgb(224,187,32);
+}
+.random1{
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.random2{
+    background-color: pink;
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+    
+}.r2{
+    background-color: orange;
+    padding:  50%;
+}
+
+.cardsbabu{
+    width: 300px;
+    height: 540px;
+    background-color: lightblue;
+    margin-left: 50px;
+    transition: 1s;
+    box-shadow: 5px 5px 18px black;
+    display: inline-block;
+}
+.cardsbabu:hover{
+    box-shadow: 5px 5px 48px black;
+}
+.cardspriyanka{
+    width: 300px;
+    height: 540px;
+    background-color: lightblue;
+    margin-left: 200px;
+    transition: 1s;
+    box-shadow: 5px 5px 18px black;
+    display: inline-block;
+}
+.cardspriyanka:hover{
+    box-shadow: 5px 5px 48px black;
+}
+.cardsraj{
+    width: 300px;
+    height: 540px;
+    background-color: lightblue;
+    margin-left: 200px;
+    transition: 1s;
+    box-shadow: 5px 5px 18px black;
+    display: inline-block;
+}
+.cardsraj:hover{
+    box-shadow: 5px 5px 48px black;
+}
+
+
+.i{
+    width: 290px;
+    height: 290px;
+margin: 7px 5px 5px 5px;
+background-image: url("babu1.jpeg");
+background-size: cover;
 
 }
-*::selection{
-    background-color:rgb(224,187,32) ;
-    color:rgb(132, 24, 24);
+.ip{
+    width: 290px;
+    height: 290px;
+margin: 7px 5px 5px 5px;
+background-image: url("desigirl.jpg");
+background-size: cover;
+
+}
+.ir{
+    width: 290px;
+    height: 290px;
+margin: 7px 5px 5px 5px;
+background-image: url("kumba.jpeg");
+background-size: cover;
+
+}
+.info{
+    margin: 50px 10px 10px 90px;
+}
+
+.infobutton{
+    background-color: rgb(0, 46, 106);
+   
+    transition: 1s;
+    
+}
+.infobutton:hover{
+    background-color: white;
+   
+    padding: 7px 7px 7px 7px;
+
+}
+.infolink:hover{
+    color: rgb(0, 46, 106);
+
 }
